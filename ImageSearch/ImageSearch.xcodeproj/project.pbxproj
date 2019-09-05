@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60B4DA6A362C7A3F78D26D45 /* Pods_HikeSimulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB255D8E067233324FBB9014 /* Pods_HikeSimulation.framework */; };
+		D51E48A72261BBAE000FA227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48A62261BBAE000FA227 /* AppDelegate.swift */; };
+		D51E48AC2261BBAE000FA227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51E48AA2261BBAE000FA227 /* Main.storyboard */; };
+		D51E48AF2261BBAE000FA227 /* HikeSimulation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D51E48AD2261BBAE000FA227 /* HikeSimulation.xcdatamodeld */; };
+		D51E48B12261BBB0000FA227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51E48B02261BBB0000FA227 /* Assets.xcassets */; };
+		D51E48B42261BBB0000FA227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51E48B22261BBB0000FA227 /* LaunchScreen.storyboard */; };
+		D51E48BE2261BC18000FA227 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48BD2261BC18000FA227 /* MainViewController.swift */; };
+		D51E48C32261BDF4000FA227 /* SearchImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48C22261BDF4000FA227 /* SearchImageCollectionViewCell.swift */; };
+		D51E48C72261C039000FA227 /* GenericResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48C62261C039000FA227 /* GenericResponseObject.swift */; };
+		D51E48C92261C0D0000FA227 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48C82261C0CF000FA227 /* APIService.swift */; };
+		D51E48CB2261C79A000FA227 /* CoreDataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48CA2261C79A000FA227 /* CoreDataUtils.swift */; };
+		D51E48D12261C9CA000FA227 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48CD2261C9CA000FA227 /* Photo+CoreDataClass.swift */; };
+		D51E48D22261C9CA000FA227 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48CE2261C9CA000FA227 /* Photo+CoreDataProperties.swift */; };
+		D51E48D32261C9CA000FA227 /* Photos+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48CF2261C9CA000FA227 /* Photos+CoreDataClass.swift */; };
+		D51E48D42261C9CA000FA227 /* Photos+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E48D02261C9CA000FA227 /* Photos+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		993A89F71500BB13700AF5E5 /* Pods-HikeSimulation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeSimulation.release.xcconfig"; path = "Pods/Target Support Files/Pods-HikeSimulation/Pods-HikeSimulation.release.xcconfig"; sourceTree = "<group>"; };
+		CB255D8E067233324FBB9014 /* Pods_HikeSimulation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HikeSimulation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4353D5E568607404C5F8A1A /* Pods-HikeSimulation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HikeSimulation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HikeSimulation/Pods-HikeSimulation.debug.xcconfig"; sourceTree = "<group>"; };
+		D51E48A32261BBAE000FA227 /* HikeSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51E48A62261BBAE000FA227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D51E48AB2261BBAE000FA227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D51E48AE2261BBAE000FA227 /* HikeSimulation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HikeSimulation.xcdatamodel; sourceTree = "<group>"; };
+		D51E48B02261BBB0000FA227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51E48B32261BBB0000FA227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51E48B52261BBB0000FA227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51E48BD2261BC18000FA227 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D51E48C22261BDF4000FA227 /* SearchImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		D51E48C62261C039000FA227 /* GenericResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponseObject.swift; sourceTree = "<group>"; };
+		D51E48C82261C0CF000FA227 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D51E48CA2261C79A000FA227 /* CoreDataUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUtils.swift; sourceTree = "<group>"; };
+		D51E48CD2261C9CA000FA227 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D51E48CE2261C9CA000FA227 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D51E48CF2261C9CA000FA227 /* Photos+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photos+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D51E48D02261C9CA000FA227 /* Photos+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photos+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51E48A02261BBAE000FA227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B4DA6A362C7A3F78D26D45 /* Pods_HikeSimulation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D51E489A2261BBAE000FA227 = {
+			isa = PBXGroup;
+			children = (
+				D51E48A52261BBAE000FA227 /* HikeSimulation */,
+				D51E48A42261BBAE000FA227 /* Products */,
+				FC7B3CC74FED48DE60583FB0 /* Pods */,
+				F37EC77CEA6F4CD1ED00976B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D51E48A42261BBAE000FA227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48A32261BBAE000FA227 /* HikeSimulation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51E48A52261BBAE000FA227 /* HikeSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48A62261BBAE000FA227 /* AppDelegate.swift */,
+				D51E48B22261BBB0000FA227 /* LaunchScreen.storyboard */,
+				D51E48B52261BBB0000FA227 /* Info.plist */,
+				D51E48C42261BFB7000FA227 /* Networking */,
+				D51E48C12261BD43000FA227 /* Utils */,
+				D51E48C02261BD31000FA227 /* Storyboard */,
+				D51E48BF2261BD2A000FA227 /* Scenes */,
+				D51E48CC2261C7D4000FA227 /* DataModels */,
+				D51E48B02261BBB0000FA227 /* Assets.xcassets */,
+				D51E48AD2261BBAE000FA227 /* HikeSimulation.xcdatamodeld */,
+			);
+			path = HikeSimulation;
+			sourceTree = "<group>";
+		};
+		D51E48BF2261BD2A000FA227 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48BD2261BC18000FA227 /* MainViewController.swift */,
+				D51E48C22261BDF4000FA227 /* SearchImageCollectionViewCell.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D51E48C02261BD31000FA227 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48AA2261BBAE000FA227 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D51E48C12261BD43000FA227 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48CA2261C79A000FA227 /* CoreDataUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D51E48C42261BFB7000FA227 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48C62261C039000FA227 /* GenericResponseObject.swift */,
+				D51E48C82261C0CF000FA227 /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D51E48CC2261C7D4000FA227 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				D51E48CD2261C9CA000FA227 /* Photo+CoreDataClass.swift */,
+				D51E48CE2261C9CA000FA227 /* Photo+CoreDataProperties.swift */,
+				D51E48CF2261C9CA000FA227 /* Photos+CoreDataClass.swift */,
+				D51E48D02261C9CA000FA227 /* Photos+CoreDataProperties.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		F37EC77CEA6F4CD1ED00976B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB255D8E067233324FBB9014 /* Pods_HikeSimulation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7B3CC74FED48DE60583FB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4353D5E568607404C5F8A1A /* Pods-HikeSimulation.debug.xcconfig */,
+				993A89F71500BB13700AF5E5 /* Pods-HikeSimulation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51E48A22261BBAE000FA227 /* HikeSimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51E48B82261BBB0000FA227 /* Build configuration list for PBXNativeTarget "HikeSimulation" */;
+			buildPhases = (
+				36179917C2195993B705CE89 /* [CP] Check Pods Manifest.lock */,
+				D51E489F2261BBAE000FA227 /* Sources */,
+				D51E48A02261BBAE000FA227 /* Frameworks */,
+				D51E48A12261BBAE000FA227 /* Resources */,
+				8FA8A2940C56061B8DA7CF96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HikeSimulation;
+			productName = HikeSimulation;
+			productReference = D51E48A32261BBAE000FA227 /* HikeSimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51E489B2261BBAE000FA227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Romit Kumar";
+				TargetAttributes = {
+					D51E48A22261BBAE000FA227 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D51E489E2261BBAE000FA227 /* Build configuration list for PBXProject "HikeSimulation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51E489A2261BBAE000FA227;
+			productRefGroup = D51E48A42261BBAE000FA227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51E48A22261BBAE000FA227 /* HikeSimulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D51E48A12261BBAE000FA227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51E48B42261BBB0000FA227 /* LaunchScreen.storyboard in Resources */,
+				D51E48B12261BBB0000FA227 /* Assets.xcassets in Resources */,
+				D51E48AC2261BBAE000FA227 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36179917C2195993B705CE89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HikeSimulation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA8A2940C56061B8DA7CF96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HikeSimulation/Pods-HikeSimulation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HikeSimulation/Pods-HikeSimulation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51E489F2261BBAE000FA227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51E48C32261BDF4000FA227 /* SearchImageCollectionViewCell.swift in Sources */,
+				D51E48CB2261C79A000FA227 /* CoreDataUtils.swift in Sources */,
+				D51E48D12261C9CA000FA227 /* Photo+CoreDataClass.swift in Sources */,
+				D51E48C92261C0D0000FA227 /* APIService.swift in Sources */,
+				D51E48AF2261BBAE000FA227 /* HikeSimulation.xcdatamodeld in Sources */,
+				D51E48C72261C039000FA227 /* GenericResponseObject.swift in Sources */,
+				D51E48D32261C9CA000FA227 /* Photos+CoreDataClass.swift in Sources */,
+				D51E48D22261C9CA000FA227 /* Photo+CoreDataProperties.swift in Sources */,
+				D51E48A72261BBAE000FA227 /* AppDelegate.swift in Sources */,
+				D51E48BE2261BC18000FA227 /* MainViewController.swift in Sources */,
+				D51E48D42261C9CA000FA227 /* Photos+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D51E48AA2261BBAE000FA227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51E48AB2261BBAE000FA227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D51E48B22261BBB0000FA227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51E48B32261BBB0000FA227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51E48B62261BBB0000FA227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D51E48B72261BBB0000FA227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51E48B92261BBB0000FA227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4353D5E568607404C5F8A1A /* Pods-HikeSimulation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55NF4H43TB;
+				INFOPLIST_FILE = HikeSimulation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.romit.HikeSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D51E48BA2261BBB0000FA227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993A89F71500BB13700AF5E5 /* Pods-HikeSimulation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55NF4H43TB;
+				INFOPLIST_FILE = HikeSimulation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.romit.HikeSimulation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51E489E2261BBAE000FA227 /* Build configuration list for PBXProject "HikeSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51E48B62261BBB0000FA227 /* Debug */,
+				D51E48B72261BBB0000FA227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51E48B82261BBB0000FA227 /* Build configuration list for PBXNativeTarget "HikeSimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51E48B92261BBB0000FA227 /* Debug */,
+				D51E48BA2261BBB0000FA227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D51E48AD2261BBAE000FA227 /* HikeSimulation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D51E48AE2261BBAE000FA227 /* HikeSimulation.xcdatamodel */,
+			);
+			currentVersion = D51E48AE2261BBAE000FA227 /* HikeSimulation.xcdatamodel */;
+			path = HikeSimulation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D51E489B2261BBAE000FA227 /* Project object */;
+}
